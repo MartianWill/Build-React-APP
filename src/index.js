@@ -1,13 +1,29 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+// import App from "./components/App";
+import reportWebVitals from "./reportWebVitals";
+// import Contact from "./contact-component/Contact";
+import EmojipediaApp from "./emoji-components/EmojipediaApp";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(
+//   <React.StrictMode>
+//     <App />
+//   </React.StrictMode>
+// );
+
+//contact app
+// root.render(
+//   <React.StrictMode>
+//     <Contact />
+//   </React.StrictMode>
+// );
+
+//emojipedia
 root.render(
   <React.StrictMode>
-    <App />
+    <EmojipediaApp />
   </React.StrictMode>
 );
 
