@@ -1,3 +1,15 @@
+# Project detail
+
+Created with [Create React App](#getting-started-with-create-react-app).
+
+## src/components
+
+Understand React components feature which divides content by three parts: Heading, Footer, and Note. Understand [export](https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export) functionalities. Writing JSX rather than pure HTML.
+
+### contact-component/emoji-components
+
+Introduced mapping object data stored in an array from a separate js file. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
