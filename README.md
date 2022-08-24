@@ -1,14 +1,23 @@
 # Project detail
 
-Created with [Create React App](#getting-started-with-create-react-app).
+Created with [Create React App](#getting-started-with-create-react-app).<br>
+Learning React while creating and testing several components which were discovered from learnig process and in-depth DOCs. Final goal is to create a Keep app as the main App.
 
-## src/components
+## `src/components` main components
 
-Understand React components feature which divides content by three parts: Heading, Footer, and Note. Understand [export](https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export) functionalities. Writing JSX rather than pure HTML.
+Understand React components feature which divides content by three parts: Heading, Footer, and Note. Understand [export](https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export) functionalities. Writing JSX rather than pure HTML. 
 
-### contact-component/emoji-components
+### `contact-component && emoji-components`
 
-Introduced mapping object data stored in an array from a separate js file. 
+Contact introduced [props](https://reactjs.org/docs/components-and-props.html) to further cutdown repetitive work.<br>
+Emoji introduced `map` object data stored in an array from a separate js file.
+
+### `useState-components`
+
+Get familiar with state from older version of React,  using Class to update [state](https://reactjs.org/docs/state-and-lifecycle.html). Adapting to lastest version using [state hook](https://reactjs.org/docs/hooks-state.html#tip-what-do-square-brackets-mean).<br>
+React State Hook, setState. Array destructing. Practice event listener such as on-click, mouse-over. Form behavior using state.
+
+---
 
 # Getting Started with Create React App
 
