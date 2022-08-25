@@ -11,25 +11,29 @@ function FormUpgrade() {
     const { name, value } = event.target;
 
     setContact((prev) => {
-      if (name === "fName") {
-        return {
-          fName: value,
-          lName: prev.lName,
-          email: prev.email,
-        };
-      } else if (name === "lName") {
-        return {
-          fName: prev.fName,
-          lName: value,
-          email: prev.email,
-        };
-      } else if (name === "email") {
-        return {
-          fName: prev.fName,
-          lName: prev.lName,
-          email: value,
-        };
-      }
+      return {
+        ...prev,
+        [name]: value,
+      };
+      // if (name === "fName") {
+      //   return {
+      //     fName: value,
+      //     lName: prev.lName,
+      //     email: prev.email,
+      //   };
+      // } else if (name === "lName") {
+      //   return {
+      //     fName: prev.fName,
+      //     lName: value,
+      //     email: prev.email,
+      //   };
+      // } else if (name === "email") {
+      //   return {
+      //     fName: prev.fName,
+      //     lName: prev.lName,
+      //     email: value,
+      //   };
+      // }
     });
   }
   return (
