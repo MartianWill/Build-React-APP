@@ -5,7 +5,8 @@ Learning React while creating and testing several components which were discover
 
 ## `src/components` main components
 
-Understand React components feature which divides content by three parts: Heading, Footer, and Note. Understand [export](https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export) functionalities. Writing JSX rather than pure HTML. 
+Understand React components feature which divides content by three parts: Heading, Footer, and Note. Understand [export](https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export) functionalities. Writing JSX rather than pure HTML. <br>
+[mui](https://github.com/mui/material-ui) React component design.
 
 ### `contact-component && emoji-components`
 
@@ -15,7 +16,11 @@ Emoji introduced `map` object data stored in an array from a separate js file.
 ### `useState-components`
 
 Get familiar with state from older version of React,  using Class to update [state](https://reactjs.org/docs/state-and-lifecycle.html). Adapting to lastest version using [state hook](https://reactjs.org/docs/hooks-state.html#tip-what-do-square-brackets-mean).<br>
-React State Hook, setState. Array destructing. Practice event listener such as on-click, mouse-over. Form behavior using state.
+`React State Hook`, `setState`. `Array destructing`. Practice `event listener` such as on-click, mouse-over. Form behavior using state.
+
+### `todoList-component`
+
+`Spread operator`,react state `lifecycle`, component tree. `props` is read only.
 
 ---
 

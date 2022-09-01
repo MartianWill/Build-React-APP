@@ -6,9 +6,18 @@ import reportWebVitals from "./reportWebVitals";
 // import Contact from "./contact-components/Contact";
 // import EmojipediaApp from "./emoji-components/EmojipediaApp";
 // import LoginRender from "./components/LoginRender";
-import State from "./useState-components/State";
+// import State from "./useState-components/State";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+
+//main APP
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+
+// //simple login
 // root.render(
 //   <React.StrictMode>
 //     <LoginRender />
@@ -29,12 +38,12 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 //   </React.StrictMode>
 // );
 
-//state
-root.render(
-  <React.StrictMode>
-    <State />
-  </React.StrictMode>
-);
+// //state
+// root.render(
+//   <React.StrictMode>
+//     <State />
+//   </React.StrictMode>
+// );
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
