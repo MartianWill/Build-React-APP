@@ -1,0 +1,18 @@
+.row {
+  display: flex;
+  margin-bottom: 16px;
+}
+.row:last-child {
+  margin-bottom: 0;
+}
+
+.col {
+  flex: 1;
+  height: 24px;
+  background: silver;
+  border-radius: 6px;
+  margin-right: 16px;
+}
+.col:last-child {
+  margin-right: 0;
+}
