@@ -1,7 +1,8 @@
 # Project detail
 
 Created with [Create React App](#getting-started-with-create-react-app).<br>
-Learning React while creating and testing several components which were discovered from learnig process and in-depth DOCs. Final goal is to create a Keep app as the main App.
+Learning React while creating and testing several components which were discovered from learnig process and in-depth DOCs. Final goal is to create a Note app as the main App. The optional components were created throughout the practicing process <BR>
+The [Preview](https://fxngp4.csb.app/) of current component from codesandbox.
 
 ## `src/components` main components
 
